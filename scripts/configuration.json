@@ -15,7 +15,7 @@
     [1, 3]
   ],
 
-  "max_iterations": 1000,
+  "max_iterations": 750,
   "threshold_difference": 0.00001,
 
 
@@ -31,5 +31,8 @@
   "prob_move_left": 0.1,
   "prob_move_right": 0.1,
 
-  "generate_video": 1
+  "generate_video": 1,
+ 
+  "exploration_rate": 0.2,
+  "learning_rate" : 0.4
 }
